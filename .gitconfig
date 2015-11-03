@@ -1,0 +1,18 @@
+[alias]
+	st = status
+	br = branch -vv
+	ch = checkout
+	ck = checkout
+	llog = log --pretty=format:\"%h- %an %ar- %s\" --graph
+	brs = show-branch
+        brm = branch --merged
+        brnm = branch --no-merged
+	con = config --global
+[color]
+	ui = true
+[color "branch"]
+	upstream = blue
+
+[user]
+	name = luke
+	email = luke@chromasports.com
