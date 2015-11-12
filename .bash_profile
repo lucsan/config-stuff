@@ -39,3 +39,8 @@ PS1="$FGRN\u$RS:\w$FYEL\$(parse_git_branch)$RS\$ "
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# uncomment this if not loaded by .bashrc
+#if [ -f ~/.bash_aliases ]; then
+#    . ~/.bash_aliases
+#fi
