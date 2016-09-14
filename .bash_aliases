@@ -17,12 +17,6 @@ alias la='ls -lA'
 alias l='ls -CF'
 
 # directories
-alias cd-sr="cd /var/www/super-racing/"
-alias cd-ruk="cd /var/www/ruk-cloud/"
-alias cd-www="cd /var/www/"
-alias cd-ra="cd /var/www/riskadvisory"
-alias cd-jmp="cd /var/www/jumps"
-alias cd-ed="cd /var/www/editec"
 alias cd-scripts="cd ~/stuff/scripts"
 alias cd-conf="cd ~/stuff/configs"
 
@@ -51,7 +45,7 @@ alias commit="git commit -m"
 alias cmt="git commit -m"
 
 # ssh
-# alias ssh-nymph="ssh lucsan@82.15.229.218"
+# alias ssh-nymph="ssh lucsan@123.123.123.123"
 
 # other
 alias cmds="~/./commands"
